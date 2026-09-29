@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna 5.0 AI</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      text-align: center;
+    }
+
+    .hero {
+      padding: 70px 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+    }
+
+    h1 span {
+      color: #8b5cf6;
+    }
+
+    p {
+      color: #cbd5e1;
+      font-size: 18px;
+    }
+
+    button {
+      padding: 14px 24px;
+      margin: 10px;
+      border: 0;
+      border-radius: 12px;
+      background: #8b5cf6;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.8;
+    }
+
+    #chat {
+      display: none;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #151b2f;
+      border-radius: 18px;
+    }
+
+    input {
+      width: 70%;
+      padding: 14px;
+      border-radius: 10px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .answer {
+      margin-top: 20px;
+      color: #cbd5e1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="hero">
+
+    <h1>🌙 Luna <span>5.0 AI</span></h1>
+
+    <h2>Your AI Future Starts Here 🚀</h2>
+
+    <p>
+      Learn, create, code and explore with Luna 5.0 AI.
+    </p>
+
+    <button onclick="startAI()">🤖 Start AI</button>
+
+    <button onclick="studentHelp()">📚 Student Help</button>
+
+  </section>
+
+  <section id="chat">
+
+    <h2>🤖 Luna AI Chat</h2>
+
+    <input
+      id="question"
+      type="text"
+      placeholder="Ask something..."
+    >
+
+    <button onclick="askAI()">Ask</button>
+
+    <div id="answer" class="answer"></div>
+
+  </section>
+
+  <script>
+
+    function startAI() {
+      document.getElementById("chat").style.display = "block";
+      document.getElementById("chat").scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+
+    function studentHelp() {
+      document.getElementById("chat").style.display = "block";
+
+      document.getElementById("question").value =
+        "Help me with my studies";
+
+      document.getElementById("chat").scrollIntoView({
+        behavior: "smooth"
+      });
+    }
+
+    function askAI() {
+
+      let question =
+        document.getElementById("question").value;
+
+      if (question.trim() === "") {
+        document.getElementById("answer").innerText =
+          "Please type a question first.";
+        return;
+      }
+
+      document.getElementById("answer").innerText =
+        "🌙 Luna 5.0 AI: Your question was received! Real AI connection will be added next.";
+    }
+
+  </script>
+
+</body>
+</html>
