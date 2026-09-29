@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luna 5.0 AI</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7ff;
+      color: #111827;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px;
+      background: #111827;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 8px 0 0;
+      color: #c7d2fe;
+    }
+
+    .hero {
+      padding: 70px 20px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #4b5563;
+      max-width: 600px;
+      margin: auto;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 14px 24px;
+      margin: 8px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background: #4f46e5;
+      color: white;
+    }
+
+    button:hover {
+      background: #3730a3;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 18px;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      background: #111827;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌙 Luna 5.0 AI</h1>
+    <p>Your AI-powered learning companion</p>
+  </header>
+
+  <section class="hero">
+    <h2>Think Smarter with AI 🤖</h2>
+
+    <p>
+      Ask questions, learn faster, get study help,
+      write content and explore the power of AI.
+    </p>
+
+    <div class="buttons">
+      <button onclick="startAI()">🚀 Start AI</button>
+      <button onclick="studentHelp()">📚 Student Help</button>
+    </div>
+  </section>
+
+  <section class="cards">
+
+    <div class="card">
+      <h3>🤖 AI Chat</h3>
+      <p>Ask questions and get helpful answers.</p>
+    </div>
+
+    <div class="card">
+      <h3>📚 Study Help</h3>
+      <p>Get explanations, notes and learning support.</p>
+    </div>
+
+    <div class="card">
+      <h3>💻 Coding</h3>
+      <p>Learn programming and build projects.</p>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Luna 5.0 AI
+  </footer>
+
+  <script>
+    function startAI() {
+      alert("Luna 5.0 AI is coming soon! 🚀");
+    }
+
+    function studentHelp() {
+      alert("Student Help is coming soon! 📚");
+    }
+  </script>
+
+</body>
+</html>
