@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Luna 5.0 AI</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      min-height: 100vh;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 7%;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .logo span {
+      color: #8b5cf6;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 50px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 span {
+      color: #8b5cf6;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #b8bfd3;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    button {
+      border: none;
+      padding: 14px 24px;
+      margin: 8px;
+      border-radius: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      background: #8b5cf6;
+      color: white;
+    }
+
+    button:hover {
+      opacity: 0.85;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 30px 20px 70px;
+    }
+
+    .card {
+      width: 260px;
+      padding: 28px;
+      border-radius: 18px;
+      background: #151b2f;
+      text-align: center;
+    }
+
+    .card h2 {
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b8bfd3;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #8f96aa;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">🌙 Luna <span>5.0 AI</span></div>
+  </nav>
+
+  <section class="hero">
+
+    <h1>
+      Your Future with <span>AI</span>
+    </h1>
+
+    <p>
+      Learn, create, code and explore with Luna 5.0 AI.
+      A simple AI platform built for students and creators.
+    </p>
+
+    <div class="buttons">
+      <button onclick="startAI()">🤖 Start AI</button>
+      <button onclick="studentHelp()">📚 Student Help</button>
+    </div>
+
+  </section>
+
+  <section class="cards">
+
+    <div class="card">
+      <h2>🤖 AI Chat</h2>
+      <p>
+        Ask questions and get helpful answers.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>📚 Study</h2>
+      <p>
+        Learn concepts, make notes and prepare for exams.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>💻 Coding</h2>
+      <p>
+        Learn programming and build your own projects.
+      </p>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Luna 5.0 AI
+  </footer>
+
+  <script>
+
+    function startAI() {
+      alert("🤖 Luna AI Chat is coming soon!");
+    }
+
+    function studentHelp() {
+      alert("📚 Student Help is coming soon!");
+    }
+
+  </script>
+
+</body>
+</html>
